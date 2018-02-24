@@ -1,0 +1,30 @@
+Developing Pseudocode
+
+Step A = define the problem
+
+Determine the class average for the quiz
+
+Step B - determine the main steps to solving it
+
+1. Initialize variables
+2. input sum and count the quiz grades
+3. Calculate and print the class average
+
+Step C = expand on steps
+1. initialize variables
+	- Initialize total to zero
+	- initialize counter to zero
+2. Input, sum and count the quiz grades
+	- prompt the user to enter the first grade
+	- input the first grade (possibly sentinel)
+	- while the user has not yet entered sentinel
+		- add this grade into running total
+		- add one to grade counter
+		- prompt user to enter the next frade
+		- input the next grade (possibly sentinel)
+3. calculate and print the class average
+	- if the counter is not equal to zero
+		- set the average to the total divided by the counter
+		- print average
+	- else
+		- print "no grades entered

@@ -1,0 +1,45 @@
+A college offers a course that prepares students for the state licensing exam for real-estate
+brokers. Last year, ten of the students who completed this course took the exam. The college
+wants to know how well its students did on the exam. You’ve been asked to write a
+program to summarize the results. You’ve been given a list of these 10 students. Next to
+each name is written a 1 if the student passed the exam or a 2 if the student failed.
+
+
+Your program should analyze the results of the exam as follows:
+	1. Input each test result (i.e., a 1 or a 2). Display the message “Enter result” on the screen
+		each time the program requests another test result.
+	2. Count the number of test results of each type.
+	3. Display a summary of the test results, indicating the number of students who passed and
+		the number who failed.
+	4. If more than eight students passed the exam, print “Bonus to instructor!”
+	
+
+Developing the Psuedocode
+
+Step A
+Analyze exam results and decide whether a bonus should be paid
+
+step B
+Initialize variable
+input the 10 exam results, and count passes and failures
+Print a summary of the exam results and decide wether a bonus should be paid
+
+step C
+1. Initialize Variables
+	- initialize passes to zero
+	- initialize failures to zero
+	- initialize student counter to one
+2. input the 10 exam results and count passes and failures
+	- while student counter is less than or equal to 10
+		- prompt user to enter next exam grade
+		- input next exam result
+		- if student passed
+			- add one to passes
+		- else
+			- add one to failures
+		- add one to student counter
+3. print summary
+	- print number of passes
+	- print number of faulures
+	- if more than eight students passed
+		- print "bonus to instructor"
